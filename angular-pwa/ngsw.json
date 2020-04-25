@@ -1,0 +1,74 @@
+{
+  "configVersion": 1,
+  "timestamp": 1587852953086,
+  "index": "contactless-restraunt/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "contactless-restraunt/es2015-polyfills.5e60b7ad6e87c6cc59ea.js",
+        "contactless-restraunt/favicon.ico",
+        "contactless-restraunt/index.html",
+        "contactless-restraunt/main.25f206676fe220d84d34.js",
+        "contactless-restraunt/polyfills.7b94fcaa94c69f287a8a.js",
+        "contactless-restraunt/runtime.aa5b8c69ed805056b567.js",
+        "contactless-restraunt/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "contactless-restraunt/assets/icons/icon-128x128.png",
+        "contactless-restraunt/assets/icons/icon-144x144.png",
+        "contactless-restraunt/assets/icons/icon-152x152.png",
+        "contactless-restraunt/assets/icons/icon-192x192.png",
+        "contactless-restraunt/assets/icons/icon-384x384.png",
+        "contactless-restraunt/assets/icons/icon-512x512.png",
+        "contactless-restraunt/assets/icons/icon-72x72.png",
+        "contactless-restraunt/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "contactless-restraunt/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "contactless-restraunt/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "contactless-restraunt/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "contactless-restraunt/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "contactless-restraunt/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "contactless-restraunt/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "contactless-restraunt/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "contactless-restraunt/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "contactless-restraunt/es2015-polyfills.5e60b7ad6e87c6cc59ea.js": "207ad12781a7aba0fba8c5e505a18d35dd06a410",
+    "contactless-restraunt/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "contactless-restraunt/index.html": "932aaec0d08bad3a51e6a29d153d69761be6d36c",
+    "contactless-restraunt/main.25f206676fe220d84d34.js": "667389c8be323a87262ed5f8e03ddcb50ace68b1",
+    "contactless-restraunt/polyfills.7b94fcaa94c69f287a8a.js": "31dba5e00bce089fa3ecb1df8e1f2c22b84d32cc",
+    "contactless-restraunt/runtime.aa5b8c69ed805056b567.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "contactless-restraunt/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
