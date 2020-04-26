@@ -1,0 +1,34 @@
+.mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .drawer-container {
+        flex-grow: 1;
+        mat-drawer {
+            width: 80%;
+            max-width: 500px;
+            mat-list {
+                mat-list-item {
+                    a {
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-start;
+                    }
+                }
+            }
+        }
+        mat-drawer-content {
+            display: flex;
+            flex-direction: column;
+            .router-div {
+                flex-grow: 1;
+            }
+        }
+    }
+}
+

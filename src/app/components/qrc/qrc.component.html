@@ -1,0 +1,17 @@
+<mat-card *ngFor="let table of tables">
+  <mat-card-header>
+    <mat-card-title>Table {{table.tableNo}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <!-- <ngx-kjua
+      [text]="table.id"
+      [crisp]="true"
+    ></ngx-kjua> -->
+    <!-- <qrcode [qrdata]="table.id" [width]="256" [errorCorrectionLevel]="'M'"></qrcode> -->
+    <ngx-qrcode 
+        [qrc-value] = "getMenuUrl(table.id)"
+        qrc-class = "aclass"
+        qrc-errorCorrectionLevel = "M">
+    </ngx-qrcode>
+  </mat-card-content>
+</mat-card>

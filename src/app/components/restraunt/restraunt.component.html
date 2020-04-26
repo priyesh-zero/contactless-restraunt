@@ -1,0 +1,7 @@
+<div class="restraunts">
+  <mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let restrant of Restraunts;">
+      <a [routerLink]="[restrant.id]" mat-button color="primary">{{restrant.name}}</a>
+    </mat-list-item>
+  </mat-list>
+</div>

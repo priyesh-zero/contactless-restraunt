@@ -1,0 +1,12 @@
+<div class="scanner">
+  <h2>
+    Welcome to Contactless
+    <br>
+    <small>
+      Please scan the QR on your table
+    </small>
+  </h2>
+  <zxing-scanner
+    (scanSuccess)="onDecode($event)"
+  ></zxing-scanner>
+</div>

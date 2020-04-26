@@ -1,0 +1,23 @@
+<mat-selection-list (selectionChange)="onSelectionChange($event)" #menu>
+  <mat-list-option *ngFor="let item of menuItems" [value]="item.id">
+    <span>{{item.name}}</span>
+    <span>{{item.price | currency:'INR' }}</span>
+  </mat-list-option>
+</mat-selection-list>
+<button 
+  mat-flat-button 
+  [disabled]="menu.selectedOptions.selected.length <= 0" 
+  color="primary"
+  (click)="onOrderPlace()"
+>
+    Place Order ({{menu.selectedOptions.selected.length}})
+</button>
+<h2 *ngIf="placeItems.length > 0">Your Orders: </h2>
+<mat-list role="list">
+  <mat-list-item role="listitem" *ngFor="let item of placeItems">
+    {{item.name}} X {{item.count}}
+  </mat-list-item>
+</mat-list>
+<h3 style="text-align: center;" *ngIf="placeItems.length > 0">
+  Order Total {{ totalPrice | currency: 'INR' }}
+</h3>
